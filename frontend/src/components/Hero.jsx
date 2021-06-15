@@ -21,7 +21,6 @@ const Hero = () => {
                         CMS development.
                     </p>
                     <Button
-                        hover='hover:bg-purple-200'
                         bgColor='yellow-500'
                         textColor='yellow-100'
                         text='See Our Work'
