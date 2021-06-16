@@ -3,7 +3,7 @@ import React from 'react';
 const ContactForm = () => {
     return (
         <div>
-            <form name='contact' method='post'>
+            <form className='text-2xl' name='contact' method='post'>
                 <input type='hidden' name='form-name' value='contact' />
                 <p>
                     <label htmlFor='name'>Name</label> <br />
