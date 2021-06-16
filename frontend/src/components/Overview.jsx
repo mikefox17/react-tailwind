@@ -7,11 +7,11 @@ const Overview = () => {
             <h2 className='text-4xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-pink-400  to-blue-400  mb-10'>
                 From Bartender to Web Developer
             </h2>
-            <div className='lg:grid grid-rows-3 grid-flow-col space-x-8  rounded-lg fle'>
+            <div className='lg:grid grid-rows-3 grid-flow-col space-x-8  rounded-lg'>
                 <div className='row-span-3'>
                     <img src={img} alt='' className='rounded-t-lg rounded ' />
                 </div>
-                <div className='p-4 col-span-2'>
+                <div className='col-span-2'>
                     <p className='text-xl text-gray-600 text-center'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Unde illo, sint officiis totam eos recusandae, adipisci
