@@ -3,8 +3,8 @@ import React from 'react';
 const Navigation = () => {
     return (
         <div className='relative text-gray-600 bg-gray-100'>
-            <div class='h-1 bg-gradient-to-r from-pink-300 to-orange-300 w-full absolute bottom-0'></div>{' '}
-            <div className='container px-6 py-6 lg:px-0 mx-auto flex justify-between items-center'>
+            <div className='h-1 bg-gradient-to-r from-pink-300 to-orange-300 w-full absolute bottom-0'></div>{' '}
+            <div className='container px-10 py-6 lg:px-0 mx-auto flex justify-between items-center'>
                 {/* leftside */}
                 <div>
                     <a
@@ -19,7 +19,7 @@ const Navigation = () => {
                     <a href='#'>About</a>
                     <a href='#'>Portfolio</a>
                     <a
-                        className='bg-gradient-to-r from-pink-500 to-orange-500 py-3 px-6 rounded text-pink-100 font-semibold text-lg shadow-lg hover:shadow-2xl transform transition duration-300 '
+                        className='bg-gradient-to-r from-pink-500 to-orange-500 py-3 px-10 rounded text-pink-100 font-semibold text-lg shadow-lg hover:shadow-2xl transform transition duration-300 '
                         href='#'
                     >
                         Contact
