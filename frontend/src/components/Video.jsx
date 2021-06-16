@@ -15,7 +15,7 @@ const Video = props => {
                 react and sanity.io
             </p>
             <iframe
-                class=' rounded-b'
+                class='w-full rounded-b'
                 height='315'
                 src='https://www.youtube.com/embed/hY1Uqv-f-UY'
                 title='YouTube video player'
