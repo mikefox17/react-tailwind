@@ -2,7 +2,7 @@ import React from 'react';
 
 export const BlogCard = props => {
     return (
-        <div className='border border-gray-700 rounded-lg col-span-1 shadow-xl mt-8'>
+        <div className='border border-gray-700 rounded-lg col-span-1 shadow-xl mt-8 hover:shadow-2xl transition duration-300'>
             <img
                 src='https://images.unsplash.com/photo-1561883088-039e53143d73?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2ViJTIwZGV2fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'
                 alt=''

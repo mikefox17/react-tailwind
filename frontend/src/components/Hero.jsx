@@ -5,7 +5,6 @@ import Circles from './Circles';
 const Hero = () => {
     return (
         <div className='relative bg-orange-100'>
-            <Circles />
             <div className='container py-32 mx-auto px-10  bg-orange-100'>
                 <div className='text-center bg-orange-100'>
                     <h2 className='mb-4 text-5xl font-extrabold text-blue-500 bg-orange-100'>
