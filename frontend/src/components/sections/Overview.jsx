@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../mike.jpeg';
+import img from '../../../mike.jpeg';
 
 const Overview = () => {
     return (
@@ -12,7 +12,7 @@ const Overview = () => {
                     <img src={img} alt='' className='rounded-t-lg rounded ' />
                 </div>
                 <div className='col-span-2'>
-                    <p className='text-xl text-gray-600 text-center'>
+                    <p className='text-xl text-gray-600 text-center mb-4'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Unde illo, sint officiis totam eos recusandae, adipisci
                         quis vel accusamus laudantium quaerat excepturi modi,
@@ -25,7 +25,7 @@ const Overview = () => {
                     </p>
                 </div>
                 <div className='p-4 row-span-2 col-span-2 flex-col'>
-                    <h3 className='text-2xl text-center font-semibold italic'>
+                    <h3 className='text-2xl text-center font-semibold italic text-gray-700'>
                         Tech Used
                     </h3>
                     <div className='flex justify-center'>

@@ -1,6 +1,5 @@
 import React from 'react';
-import Button from '../components/Button';
-import Circles from './Circles';
+import Button from '../Button';
 
 const Hero = () => {
     return (
