@@ -8,12 +8,14 @@ import ContactForm from './components/ContactForm';
 const App = () => {
     return (
         <>
-            <Navigation />
-            <Hero />
-            <Overview />
-            <BlogSection />
-            <VideoSection />
-            <ContactForm />
+            <div className='bg-gray-100'>
+                <Navigation />
+                <Hero />
+                <Overview />
+                <BlogSection />
+                <VideoSection />
+                <ContactForm />
+            </div>
         </>
     );
 };

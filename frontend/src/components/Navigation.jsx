@@ -15,9 +15,13 @@ const Navigation = () => {
                     </a>
                 </div>
                 {/* rightride */}
-                <div className='space-x-4 lg:space-x-8'>
-                    <a href='#'>About</a>
-                    <a href='#'>Portfolio</a>
+                <div className='space-x-4  space-x-8'>
+                    <a className='hidden lg:inline-block' href='#'>
+                        About
+                    </a>
+                    <a className='hidden lg:inline-block' href='#'>
+                        Portfolio
+                    </a>
                     <a
                         className='bg-gradient-to-r from-pink-500 to-orange-500 py-3 px-10 rounded text-pink-100 font-semibold text-lg shadow-lg hover:shadow-2xl transform transition duration-300 '
                         href='#'
