@@ -3,12 +3,12 @@ import img from '../../../mike.jpeg';
 
 const Overview = () => {
     return (
-        <div className='container mx-auto px-10 mt-10 py-24'>
+        <div className='container mx-auto px-10 lg:py-32 py-12'>
             <h2 className='text-4xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-pink-400  to-blue-400  mb-10'>
                 From Bartender to Web Developer
             </h2>
             <div className='lg:grid grid-rows-3 grid-flow-col space-x-8  rounded-lg'>
-                <div className='row-span-3'>
+                <div className='row-span-3 mb-10'>
                     <img src={img} alt='' className='rounded-t-lg rounded ' />
                 </div>
                 <div className='col-span-2'>

@@ -4,7 +4,9 @@ import Hero from './components/sections/Hero';
 import Overview from './components/sections/Overview';
 import BlogSection from './components/sections/BlogSection';
 import VideoSection from './components/sections/VideoSection';
-import ContactForm from './components/ContactForm';
+import ContactSection from './components/sections/ContactSection';
+import Footer from './components/Footer';
+
 const App = () => {
     return (
         <>
@@ -14,7 +16,8 @@ const App = () => {
                 <Overview />
                 <BlogSection />
                 <VideoSection />
-                <ContactForm />
+                <ContactSection />
+                <Footer />
             </div>
         </>
     );
