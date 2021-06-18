@@ -10,12 +10,12 @@ const ContactForm = () => {
                 Let's talk all things tech, memes, D&D, and NBA.
             </p>
             <form
-                className='text-xl mx-auto  bg-gray-400 rounded-lg p-12'
+                className='text-xl  bg-gray-400 rounded-lg md:p-12 shadow-xl p-2'
                 name='contact'
                 method='post'
             >
                 <input type='hidden' name='form-name' value='contact' />
-                <p className='flex bg-white mb-2 rounded p-2 text-gray-400'>
+                <p className='flex bg-white mb-2 rounded p-2 text-gray-400 '>
                     <label
                         className='border-r-2 border-orange-400 pr-2'
                         htmlFor='name'
@@ -47,7 +47,7 @@ const ContactForm = () => {
                 </p>
                 <p>
                     <input
-                        className='py-3 px-6 rounded-lg  mt-4 shadow-lg bg-orange-400 text-orange-200'
+                        className='py-3 px-6 rounded-lg  mt-4 shadow-lg bg-orange-400 text-orange-200 hover:bg-orange-300 hover:text-orange-500 transition duration-300'
                         type='submit'
                         value='Submit message'
                     />
