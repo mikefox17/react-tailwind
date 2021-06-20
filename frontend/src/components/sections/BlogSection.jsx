@@ -11,6 +11,7 @@ const BlogSection = () => {
                 `*[_type == "post"]{
             title,
             slug,
+            excerpt,
             mainImage{
                 asset->{
                     _id,
@@ -28,12 +29,15 @@ const BlogSection = () => {
     console.log(postsData);
 
     return (
-        <div className='px-10 mx-auto container lg:pt24 pt-12'>
+        <div className='px-10 mx-auto container lg:pt24 pt-12  bg-gray-200 rounded-lg pb-8'>
             <h2 className='text-5xl font-bold text-center mb-10 text-red-400'>
                 Read My Hot Takes 🔥
             </h2>
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-4'>
-                <BlogCard posts={postsData} />
+            <div className='grid lg:grid-cols-3 md:grid-cols-2  gap-4'>
+                {postsData &&
+                    postsData.map((post, i) => (
+                        <BlogCard key={i} post={post} />
+                    ))}
             </div>
         </div>
     );

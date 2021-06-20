@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactForm = () => {
     return (
-        <div className='py-32 container mx-auto px-10 md:w-1/2'>
+        <div className='py-32 container mx-auto px-10 lg:w-1/2'>
             <h2 className='text-5xl font-bold mb-2 text-center text-blue-400'>
                 Get in Touch
             </h2>
