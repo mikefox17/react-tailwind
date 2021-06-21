@@ -12,6 +12,7 @@ const BlogSection = () => {
             title,
             slug,
             excerpt,
+            tags,
             mainImage{
                 asset->{
                     _id,
@@ -29,7 +30,10 @@ const BlogSection = () => {
     console.log(postsData);
 
     return (
-        <div className='px-10 mx-auto container lg:pt24 pt-12  bg-gray-200 rounded-lg pb-8'>
+        <div
+            className='px-10 mx-auto container  pt-12  bg-gray-200 rounded-lg pb-12'
+            id='blog'
+        >
             <h2 className='text-5xl font-bold text-center mb-10 text-red-400'>
                 Read My Hot Takes 🔥
             </h2>

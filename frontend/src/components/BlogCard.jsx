@@ -15,15 +15,23 @@ export const BlogCard = props => {
                 </Link>
             </div>
             <p className='p-4 text-lg text-gray-600'>{post.excerpt}</p>
-            <a
+            <Link
+                to={'/post/' + post.slug.current}
+                key={post.slug.current}
                 className='p-4 text-xs underline text-blue-500 hover:text-gray-500'
-                href='#'
             >
                 Read More 👉
-            </a>
+            </Link>
             <div className='p-4'>
-                <div className='bg-blue-300 inline-block px-2 py-1 rounded-xl text-xs text-blue-700'>
-                    Category
+                <div className='flex space-x-2'>
+                    {post.tags.map((tag, i) => (
+                        <span
+                            key={i}
+                            className=' bg-blue-400 py-1 px-2 rounded-xl text-xs text-blue-100 '
+                        >
+                            {tag}
+                        </span>
+                    ))}
                 </div>
             </div>
         </div>

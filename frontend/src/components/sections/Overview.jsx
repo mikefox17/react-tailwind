@@ -3,7 +3,7 @@ import img from '../../../mike.jpeg';
 
 const Overview = () => {
     return (
-        <div className='container mx-auto px-10 lg:py-32 py-12'>
+        <div className='container mx-auto px-10  py-12'>
             <h2 className='text-4xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-pink-400  to-blue-400  mb-10'>
                 From Bartender to Web Developer
             </h2>

@@ -12,23 +12,21 @@ const Navigation = () => {
                     <Link
                         to='/'
                         className='text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-400 text-2xl font-bold'
-                        href='#'
                     >
                         Foxtree.io
                     </Link>
                 </div>
                 {/* rightride */}
                 <div className='space-x-4  space-x-8'>
-                    <a className='hidden lg:inline-block' href='#'>
-                        About
-                    </a>
-                    <a className='hidden lg:inline-block' href='#'>
-                        Portfolio
-                    </a>
+                    <HashLink to='/#tuts' className='hidden lg:inline-block'>
+                        Tutorials
+                    </HashLink>
+                    <HashLink to='/#blog' className='hidden lg:inline-block'>
+                        Blog Posts
+                    </HashLink>
                     <HashLink
                         to='/#contact'
                         className='bg-gradient-to-r from-pink-500 to-orange-500 py-3 px-10 rounded text-pink-100 font-semibold text-lg shadow-lg hover:shadow-2xl transform transition duration-300 '
-                        href='#'
                     >
                         Contact
                     </HashLink>

@@ -38,6 +38,19 @@ export default {
             of: [{ type: 'reference', to: { type: 'category' } }],
         },
         {
+            name: 'tags',
+            type: 'array',
+            of: [
+                {
+                    type: 'string',
+                },
+            ],
+            options: {
+                layout: 'tags',
+            },
+        },
+
+        {
             name: 'publishedAt',
             title: 'Published at',
             type: 'datetime',
