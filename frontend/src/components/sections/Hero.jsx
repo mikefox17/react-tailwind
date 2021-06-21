@@ -20,12 +20,12 @@ const Hero = () => {
                         </span>{' '}
                         CMS development.
                     </p>
-                    <Button
-                        bgColor='yellow-500'
-                        textColor='yellow-100'
-                        text='See Our Work'
-                        url='#'
-                    />
+                    <a
+                        href='#'
+                        className={`px-12 py-4 rounded-lg shadow-lg bg-yellow-500 text-yellow-100 font-semibold text-lg hover:shadow-2xl transform transition duration-400 `}
+                    >
+                        See My Work
+                    </a>
                 </div>
             </div>
         </div>

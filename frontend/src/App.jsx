@@ -1,24 +1,19 @@
 import React from 'react';
 import Navigation from './components/Navigation';
-import Hero from './components/sections/Hero';
-import Overview from './components/sections/Overview';
-import BlogSection from './components/sections/BlogSection';
-import VideoSection from './components/sections/VideoSection';
-import ContactSection from './components/sections/ContactSection';
-import Footer from './components/Footer';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import SinglePost from './components/SinglePost';
+import Home from './components/Home';
 
 const App = () => {
     return (
         <>
-            <div className='bg-gray-100'>
+            <BrowserRouter>
                 <Navigation />
-                <Hero />
-                <Overview />
-                <BlogSection />
-                <VideoSection />
-                <ContactSection />
-                <Footer />
-            </div>
+                <Switch>
+                    <Route component={Home} path='/' exact />
+                    <Route component={SinglePost} path='/post/:slug' />
+                </Switch>
+            </BrowserRouter>
         </>
     );
 };
