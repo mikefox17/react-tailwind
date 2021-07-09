@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../Button';
+import { HashLink } from 'react-router-hash-link';
 
 const Hero = () => {
     return (
@@ -20,12 +20,12 @@ const Hero = () => {
                         </span>{' '}
                         CMS development.
                     </p>
-                    <a
+                    <HashLink
                         href='#'
                         className={`px-12 py-4 rounded-lg shadow-lg bg-yellow-500 text-yellow-100 font-semibold text-lg hover:shadow-2xl transform transition duration-400 `}
                     >
                         See My Work
-                    </a>
+                    </HashLink>
                 </div>
             </div>
         </div>

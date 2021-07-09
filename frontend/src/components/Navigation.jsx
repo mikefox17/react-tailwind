@@ -20,16 +20,16 @@ const Navigation = () => {
                     {/* rightride */}
                     <div className='space-x-4  space-x-8'>
                         <HashLink
-                            to='/#tuts'
-                            className='hidden lg:inline-block hover:text-gray-800'
-                        >
-                            Tutorials
-                        </HashLink>
-                        <HashLink
                             to='/#blog'
                             className='hidden lg:inline-block hover:text-gray-800'
                         >
                             Blog Posts
+                        </HashLink>
+                        <HashLink
+                            to='/#projects'
+                            className='hidden lg:inline-block hover:text-gray-800'
+                        >
+                            Projects
                         </HashLink>
                         <HashLink
                             to='/#contact'
