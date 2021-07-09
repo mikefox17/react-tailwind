@@ -14,7 +14,7 @@ const Navigation = () => {
                             to='/'
                             className='text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-400 text-2xl font-bold'
                         >
-                            Foxtree.io
+                            Mike Fox
                         </Link>
                     </div>
                     {/* rightride */}
