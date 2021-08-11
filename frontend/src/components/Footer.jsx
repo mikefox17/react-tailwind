@@ -5,6 +5,11 @@ import { FaGithub } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
+    const hello = (name) => {
+        console.log(`hello there ${name}`);
+    }
+    hello('mike')
+    
     return (
         <div className='bg-gray-800 py-12 px-10 mx-auto w-full text-center mt-auto'>
             <div className='flex items-center justify-center '>
