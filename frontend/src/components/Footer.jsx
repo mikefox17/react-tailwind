@@ -5,11 +5,11 @@ import { FaGithub } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
-    const hello = (name) => {
+    const hello = name => {
         console.log(`hello there ${name}`);
-    }
-    hello('mike')
-    
+    };
+    hello('mike');
+
     return (
         <div className='bg-gray-800 py-12 px-10 mx-auto w-full text-center mt-auto'>
             <div className='flex items-center justify-center '>
@@ -17,7 +17,7 @@ const Footer = () => {
                     <h3 className='text-xl text-center'>
                         Developed by Mike Fox &copy; 2021{' '}
                     </h3>
-                    Follow me on socials 👇👇
+                    Follow me on socials 👇
                 </div>
             </div>
             <div className='flex text-3xl text-gray-400 mt-4 justify-center items-center '>
