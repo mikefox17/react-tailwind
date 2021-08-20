@@ -18,13 +18,6 @@ const Footer = () => {
             <div className='flex text-3xl text-gray-400 mt-4 justify-center items-center '>
                 <a
                     className='hover:text-gray-600'
-                    href='https://twitter.com/foxdownstairs'
-                    target='_blank'
-                >
-                    <FaTwitter className='m-2' />
-                </a>
-                <a
-                    className='hover:text-gray-600'
                     href='https://www.youtube.com/channel/UCPEEwc1dPVXv2azLNtrqxoA'
                     target='_blank'
                 >
