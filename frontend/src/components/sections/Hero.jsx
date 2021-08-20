@@ -20,8 +20,9 @@ const Hero = () => {
                         </span>{' '}
                         CMS development.
                     </p>
+
                     <HashLink
-                        href='/#projects'
+                        to='/#projects'
                         className={`px-12 py-4 rounded-lg shadow-lg bg-yellow-500 text-yellow-100 font-semibold text-lg hover:shadow-2xl transform transition duration-400 `}
                     >
                         See My Work 👨‍💻
